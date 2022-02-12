@@ -6,7 +6,8 @@ import Footer from "../components/footer";
 const HomePage = {
     async  render() {
         return `
-        ${Header.render()}
+        <div id="header">${Header.render()}</div>
+        
          <h1 class="pb-8"><strong>TIN TỨC HỌC TẬP</strong></h1>
         <div class="product1 grid grid-cols-12 gap-3">
           ${await News.render()}

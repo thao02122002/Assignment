@@ -1,3 +1,7 @@
+import toastr from "toastr";
+import { reRender } from "../utils";
+import "toastr/build/toastr.min.css";
+
 const Header = {
     render() {
         return `<header id="header">
@@ -25,6 +29,7 @@ const Header = {
         <div class="col-span-3 my-auto">
         <a href="/signin"><input type="submit" class="border border-black bg-white p-1 hover:bg-blue-900 hover:text-white" value="Sing In" id="singin"></a>
         <a href="/signup"><input type="submit" class="border border-black bg-white p-1 hover:bg-blue-900 hover:text-white" value="Sing Up" id="singup"></a>
+        <a href=""><input type="submit" class="border border-black bg-white p-1 hover:bg-blue-900 hover:text-white" value="Logout" id="logout"></a>
         </div>
       </div>
       <div class="banner">
@@ -34,7 +39,13 @@ const Header = {
     },
     afterRender() {
         const user = JSON.parse(localStorage.getItem("user"));
+        const logout = document.querySelector("#logout");
         document.querySelector("#account").innerHTML = user.email;
+        logout.addEventListener("click", () => {
+            toastr.success("Logout thành công");
+            localStorage.removeItem("user");
+            reRender(Header, "#header");
+        });
     },
 
 };
