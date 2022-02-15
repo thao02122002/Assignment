@@ -1,14 +1,15 @@
 /* eslint-disable no-unused-vars */
 import Navigo from "navigo";
 
-import HomePage from "../pages/homepage";
-import DetailPage from "../pages/detail";
-import ProductPage from "../pages/productpage";
+import HomePage from "../pages/home/homepage";
+import DetailPage from "../pages/home/detail";
+import ProductPage from "../pages/products/productpage";
 import SingIn from "../pages/signin";
 import SingUp from "../pages/signup";
 import AdminHome from "../pages/admin/new";
 import detailHome from "../pages/admin/new/edit";
 import addHome from "../pages/admin/new/add";
+import DetailProduct from "../pages/products/detail";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 const print = async (content, id) => {
@@ -32,13 +33,14 @@ router.on({
     "/": () => {
         print(HomePage);
     },
-    "/about": () => {
-        print("About Page");
-    },
+
     "/product": () => {
         print(ProductPage);
     },
     "/product/:id": ({ data }) => {
+        print(DetailProduct, data.id);
+    },
+    "/home/:id": ({ data }) => {
         print(DetailPage, data.id);
     },
     "/signin": () => {

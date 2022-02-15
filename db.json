@@ -241,6 +241,28 @@
       "password": "$2a$10$atg589JfxV5XqSN7jTsh8.qj59GEP0G7jQPq1sP6kft3VULVlgEyK",
       "username": "thao",
       "id": 8
+    },
+    {
+      "email": "thao0212@gmail.com",
+      "password": "$2a$10$T7LFn.4v/5nwL5Ep/TEAVeXObvda6f8lyuhzoDteKDhQr3JQfOUZC",
+      "username": "thao",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "name": "zqqqqqqqqqqqqqqqqqqqq",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644327289/web16309-thao/odnjh2baruxxpqbqqmtn.jpg",
+      "desc": "abcdeft",
+      "price": "200000",
+      "id": "1"
+    },
+    {
+      "name": "fdfhjkuk",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644368874/web16309-thao/gjfhbn0fnvvep9h53oxp.png",
+      "desc": "dfjghloifgdf",
+      "price": "4000000",
+      "id": "2"
     }
   ]
 }
