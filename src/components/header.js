@@ -14,7 +14,7 @@ const Header = {
         <nav class="col-span-6 py-2  mx-auto">
       <ul >
         <li class="inline-block pr-8 text-white hover:text-blue-800"><a href="/">Trang chủ</a></li>
-        <li class="inline-block pr-8 text-white hover:text-blue-800"><a href="/product">Sản phẩm</a></li>
+        <li class="inline-block pr-8 text-white hover:text-blue-800"><a href="/products">Sản phẩm</a></li>
        
         <li class="inline-block pr-8 text-white hover:text-blue-800"><a href="/admin/dashboard">Admin</a></li>
         ${localStorage.getItem("user") ? "<li class=\"inline-block pr-2 text-white hover:text-blue-800\"><a id=\"account\" href=\"\">User</a></li>" : ""}

@@ -15,7 +15,7 @@ const router = new Navigo("/", { linksSelector: "a", hash: true });
 const print = async (content, id) => {
     // document.querySelector("#header").innerHTML = Header.render();
     document.querySelector("#app").innerHTML = await content.render(id);
-    if (content.afterRender) content.afterRender();
+    if (content.afterRender) content.afterRender(id);
 };
 
 router.on("/#/admin/*/", () => {}, {
@@ -34,10 +34,10 @@ router.on({
         print(HomePage);
     },
 
-    "/product": () => {
+    "/products": () => {
         print(ProductPage);
     },
-    "/product/:id": ({ data }) => {
+    "/products/:id": ({ data }) => {
         print(DetailProduct, data.id);
     },
     "/home/:id": ({ data }) => {

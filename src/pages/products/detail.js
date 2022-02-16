@@ -2,6 +2,7 @@ import { get } from "../../api/product";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Categori from "../../components/categori";
+import { addToCart } from "../../utils/cart";
 
 const DetailProduct = {
     async render(id) {
@@ -23,9 +24,9 @@ const DetailProduct = {
             <div>
             <div class="buttons_added">
   <input class="minus is-form" type="button" value="-">
-  <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+  <input id="SL" aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
   <input class="plus is-form" type="button" value="+">
-  <div class="pl-2"><button class="border border-black p-2 hover:bg-blue-800 hover:text-white">Thêm vào giỏ hàng</button></div>
+  <div class="pl-2"><button id="AddToCart" class="border border-black p-2 hover:bg-blue-800 hover:text-white">Thêm vào giỏ hàng</button></div>
   
 </div>
             </div>
@@ -43,6 +44,16 @@ const DetailProduct = {
             <div class="pt-6"> ${Footer.render()}</div>
            
         `;
+    },
+    afterRender(id) {
+        const AddToCart = document.querySelector("#AddToCart");
+        const SL = document.querySelector("#SL");
+        AddToCart.addEventListener("click", async () => {
+            const { data } = await get(id);
+            // cú pháp để thêm 1 trường quantity vào object
+            // quantity sẽ ưu tiên lấy ở input trc còn nếu k thì quantity sẽ mặc định cho input là 1
+            addToCart({ ...data, quantity: SL.value ? +SL.value : 1 });
+        });
     },
 
 };
