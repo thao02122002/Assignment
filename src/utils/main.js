@@ -1,3 +1,4 @@
+/* eslint-disable import/no-named-as-default-member */
 /* eslint-disable no-unused-vars */
 import Navigo from "navigo";
 
@@ -10,14 +11,30 @@ import AdminHome from "../pages/admin/new";
 import detailHome from "../pages/admin/new/edit";
 import addHome from "../pages/admin/new/add";
 import DetailProduct from "../pages/products/detail";
+import Categori from "../components/categori";
+// eslint-disable-next-line import/no-named-as-default
+import CartPage from "../pages/cart";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 const print = async (content, id) => {
     // document.querySelector("#header").innerHTML = Header.render();
     document.querySelector("#app").innerHTML = await content.render(id);
-    if (content.afterRender) content.afterRender(id);
+    if (content.afterRender) await content.afterRender(id);
 };
-
+// router.on("/admin/*/", () => {}, {
+//     before(done, match) {
+//         if (localStorage.getItem("user")) {
+//             const userId = JSON.parse(localStorage.getItem("user")).user.id;
+//             if (userId === 8) {
+//                 done();
+//             } else {
+//                 document.location.href = "/";
+//             }
+//         } else {
+//             document.location.href = "/";
+//         }
+//     },
+// });
 router.on("/#/admin/*/", () => {}, {
     before(done, match) {
         const userId = JSON.parse(localStorage.getItem("user")).user.id;
@@ -57,6 +74,9 @@ router.on({
     },
     "/admin/news/add": () => {
         print(addHome);
+    },
+    "/cart": () => {
+        print(CartPage);
     },
 });
 router.resolve();

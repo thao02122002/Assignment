@@ -168,7 +168,7 @@ img {vertical-align: middle;} */
     white-space:nowrap;
     vertical-align:top;
 }
-.is-form {
+.btn {
     overflow:hidden;
     position:relative;
     background-color:#f9f9f9;
@@ -178,13 +178,13 @@ img {vertical-align: middle;} */
     text-shadow:1px 1px 1px #fff;
     border:1px solid #ddd;
 }
-.is-form:focus,.input-text:focus {
+.btn:focus,.input-text:focus {
     outline:none;
 }
-.is-form.minus {
+.btn.minus {
     border-radius:4px 0 0 4px;
 }
-.is-form.plus {
+.btn.plus {
     border-radius:0 4px 4px 0;
 }
 .input-qty {

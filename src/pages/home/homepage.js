@@ -9,7 +9,7 @@ const HomePage = {
         return /* html */ `
         <div id="header">${Header.render()}</div>
         <div class="danhmuc py-4 text-center">
-        ${Categori.render()}
+        ${await Categori.render()}
         </div>
          <h1 class="pb-8"><strong>HOME</strong></h1>
         <div class="home1 grid grid-cols-12 gap-3">

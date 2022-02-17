@@ -191,6 +191,12 @@
       "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644368874/web16309-thao/gjfhbn0fnvvep9h53oxp.png",
       "desc": "dfjghloifgdf",
       "id": "HcgIKpV"
+    },
+    {
+      "title": "fjojnkmijmk",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644995113/web16309-thao/wegpllvhyjvx8fenjss4.jpg",
+      "desc": "fyguhkn",
+      "id": "V8oWL3x"
     }
   ],
   "users": [
@@ -263,6 +269,32 @@
       "desc": "dfjghloifgdf",
       "price": "4000000",
       "id": "2"
+    }
+  ],
+  "categorys": [
+    {
+      "title": "Sữa rửa mặt",
+      "id": "1"
+    },
+    {
+      "title": "Nước tẩy trang",
+      "id": "2"
+    },
+    {
+      "title": "Serum trị mụn",
+      "id": "3"
+    },
+    {
+      "title": "Serum cấp ẩm",
+      "id": "4"
+    },
+    {
+      "title": "Gel mặt nạ",
+      "id": "5"
+    },
+    {
+      "title": "Set mĩ phẩm",
+      "id": "6"
     }
   ]
 }

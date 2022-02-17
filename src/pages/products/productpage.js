@@ -8,7 +8,7 @@ const ProductPage = {
         return/* html */ `
        <div id="header">${Header.render()}</div>
         <div class="py-6">
-        <div class="py-4 text-center">${Categori.render()}</div>
+        <div class="py-4 text-center">${await Categori.render()}</div>
          <div class="pb-4">
 ${await News2.render()}
          </div>

@@ -1,15 +1,17 @@
+import toastr from "toastr";
 import { get } from "../../api/product";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Categori from "../../components/categori";
 import { addToCart } from "../../utils/cart";
+import "toastr/build/toastr.min.css";
 
 const DetailProduct = {
     async render(id) {
         const { data } = await get(id);
 
         return /* html */`
-        ${Header.render()}
+        <div id="header">${Header.render()}</div>
         <div class="pt-6 pb-4 text-center">
         ${Categori.render()}
         </div>
@@ -52,8 +54,11 @@ const DetailProduct = {
             const { data } = await get(id);
             // cú pháp để thêm 1 trường quantity vào object
             // quantity sẽ ưu tiên lấy ở input trc còn nếu k thì quantity sẽ mặc định cho input là 1
-            addToCart({ ...data, quantity: SL.value ? +SL.value : 1 });
+            addToCart({ ...data, quantity: SL.value ? +SL.value : 1 }, () => {
+                toastr.success("Đã thêm vào giỏ hàng");
+            });
         });
+        Header.afterRender();
     },
 
 };

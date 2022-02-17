@@ -8,15 +8,16 @@ const Header = {
         
        
         <div class="logo ">
-        <img class="mx-auto py-4" src="https://www.invesnesia.com/wp-content/uploads/2021/03/Logo-Invesnesia-Terbaru-2048x793.jpg" alt="" width="250px">
+        <img class="mx-auto py-4" src="//cdn.shopify.com/s/files/1/0310/3447/4636/files/logo_footer_696168b6-2845-40ac-8869-6352eafcde1d_150x.png?v=1604737496" alt="" width="250px">
       </div>
       <div class="menu grid grid-cols-12 bg-yellow-600">
         <nav class="col-span-6 py-2  mx-auto">
       <ul >
-        <li class="inline-block pr-8 text-white hover:text-blue-800"><a href="/">Trang chủ</a></li>
-        <li class="inline-block pr-8 text-white hover:text-blue-800"><a href="/products">Sản phẩm</a></li>
-       
-        <li class="inline-block pr-8 text-white hover:text-blue-800"><a href="/admin/dashboard">Admin</a></li>
+        <li class="inline-block pr-6 text-white hover:text-blue-800"><a href="/">Trang chủ</a></li>
+        <li class="inline-block pr-6 text-white hover:text-blue-800"><a href="/products">Sản phẩm</a></li>
+        <li class="inline-block pr-6 text-white hover:text-blue-800"><a href="/admin/dashboard">Admin</a></li>
+      ${localStorage.getItem("user") ? " <li class=\"inline-block pr-6 text-white hover:text-blue-800\"><a href=\"/profile\">Profile</a></li>" : ""}
+        
         ${localStorage.getItem("user") ? "<li class=\"inline-block pr-2 text-white hover:text-blue-800\"><a id=\"account\" href=\"\">User</a></li>" : ""}
         
       </ul>
