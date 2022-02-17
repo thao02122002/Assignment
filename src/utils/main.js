@@ -12,8 +12,11 @@ import detailHome from "../pages/admin/new/edit";
 import addHome from "../pages/admin/new/add";
 import DetailProduct from "../pages/products/detail";
 import Categori from "../components/categori";
+import ProductHome from "../pages/admin/product";
 // eslint-disable-next-line import/no-named-as-default
 import CartPage from "../pages/cart";
+import editProduct from "../pages/admin/product/edit";
+import addProduct from "../pages/admin/product/add";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 const print = async (content, id) => {
@@ -77,6 +80,15 @@ router.on({
     },
     "/cart": () => {
         print(CartPage);
+    },
+    "/admin/product": () => {
+        print(ProductHome);
+    },
+    "/admin/product/:id/edit": ({ data }) => {
+        print(editProduct, data.id);
+    },
+    "/admin/product/add": () => {
+        print(addProduct);
     },
 });
 router.resolve();

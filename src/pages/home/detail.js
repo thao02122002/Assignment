@@ -10,7 +10,7 @@ const DetailPage = {
         return /* html */`
         ${Header.render()}
         <div class="pt-6 pb-4 text-center">
-        ${Categori.render()}
+        ${await Categori.render()}
         </div>
             <div class="border border-black grid grid-cols-12 gap-2">
             <div class="px-4 col-span-7">

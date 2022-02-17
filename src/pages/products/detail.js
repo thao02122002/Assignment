@@ -13,7 +13,7 @@ const DetailProduct = {
         return /* html */`
         <div id="header">${Header.render()}</div>
         <div class="pt-6 pb-4 text-center">
-        ${Categori.render()}
+        ${await Categori.render()}
         </div>
             <div class="border border-black grid grid-cols-12 gap-2">
             <div class="px-4 col-span-7">
@@ -25,9 +25,9 @@ const DetailProduct = {
             <span><strong>Giá:<strong></span><span>${data.price}</span>
             <div>
             <div class="buttons_added">
-  <input class="minus is-form" type="button" value="-">
+  <input class="btn btn-decrease" type="button" value="-">
   <input id="SL" aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
-  <input class="plus is-form" type="button" value="+">
+  <input class="btn btn-increase" type="button" value="+">
   <div class="pl-2"><button id="AddToCart" class="border border-black p-2 hover:bg-blue-800 hover:text-white">Thêm vào giỏ hàng</button></div>
   
 </div>

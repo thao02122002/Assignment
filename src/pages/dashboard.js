@@ -1,6 +1,7 @@
 const dashboard = {
     render() {
-        return `
+        return /* html */ `
+        
         `;
     },
 };

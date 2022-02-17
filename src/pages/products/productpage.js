@@ -9,7 +9,7 @@ const ProductPage = {
        <div id="header">${Header.render()}</div>
         <div class="py-6">
         <div class="py-4 text-center">${await Categori.render()}</div>
-         <div class="pb-4">
+         <div class="pb-4 grid grid-cols-12 gap-3">
 ${await News2.render()}
          </div>
         </div>

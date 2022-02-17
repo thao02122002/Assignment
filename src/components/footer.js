@@ -1,7 +1,7 @@
 const Footer = {
     render() {
-        return /* html */ `<footer class="" id="footer">
-<div class="grid grid-cols-9 gap-8">
+        return /* html */ `<footer class="pt-6" id="footer">
+<div class="grid grid-cols-9 gap-8 bg-slate-100 py-8 px-2">
 <div class="col-span-3 mx-auto">
 <h1>Giới Thiệu</h1>
 <img class="py-2" src="//cdn.shopify.com/s/files/1/0310/3447/4636/files/logo_footer_696168b6-2845-40ac-8869-6352eafcde1d_150x.png?v=1604737496">
