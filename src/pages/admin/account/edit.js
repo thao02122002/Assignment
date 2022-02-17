@@ -1,8 +1,7 @@
-import axios from "axios";
-import { get, update } from "../../../api/product";
+import { get, update } from "../../../api/posts";
 import navAdmin from "../../../components/navAdmin";
 
-const editProduct = {
+const detailHome = {
     async  render(id) {
         const { data } = await get(id);
 
@@ -18,13 +17,12 @@ const editProduct = {
                       <div class="grid grid-cols-3 gap-6">
                         <div class="col-span-3 sm:col-span-2">
                           <label for="company-website" class="block text-sm font-medium text-gray-700">
-                            NAME
+                            Title
                           </label>
                           <div class="mt-1 flex rounded-md shadow-sm">
                             
-                            <input type="text" name="company-website"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300 " placeholder="" id="name-post" value="${data.name}">
-                          
-                            </div>
+                            <input type="text" name="company-website" id="company-website" class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300 " placeholder="" id="title-post">${data.title}
+                          </div>
                         </div>
                       </div>
           
@@ -39,27 +37,16 @@ const editProduct = {
                       </div>
           
                       <div>
-                      <div>
-                        <label for="about" class="block text-sm font-medium text-gray-700">
-                        PRICE
-                        </label>
-                        <div class="mt-1">
-                          <textarea id="price-post" name="about" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="">${data.price}</textarea>
-                        </div>
-                        
-                      </div>
-          
-                      <div>
                         <label class="block text-sm font-medium text-gray-700">
-                          IMAGE
+                          Image
                         </label>
                         <div class="mt-1 flex items-center">
-                        <input type="file" 
+                        <input type="text" 
                                     id="img-post" 
                                     class="border border-black"  
                                     placeholder="Image" 
-                                    
-                                    > ${data.img}
+                                    value="${data.img}"
+                                    > 
                             
                           <button type="button" class="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                             Change
@@ -85,33 +72,17 @@ const editProduct = {
     },
     afterRender(id) {
         const formEdit = document.querySelector("#form-edit");
-        const productImage = document.querySelector("#img-post");
-        const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/dfpphware/image/upload";
-        const CLOUDINARY_PRESET = "web16309-thao";
-        let productImageLink = "";
-        formEdit.addEventListener("submit", async (e) => {
+        formEdit.addEventListener("submit", (e) => {
             e.preventDefault();
             // lấy giá trị input file
-            const file = document.querySelector("#img-post").files[0];
-            if (file) {
-                const formData = new FormData();
-                formData.append("file", file);
-                formData.append("upload_preset", CLOUDINARY_PRESET);
-                const { data } = await axios.post(CLOUDINARY_API, formData, {
-                    headers: {
-                        "Content-Type": "application/form-data",
-                    },
-                });
-                productImageLink = data;
-            }
+
             update({
                 id,
-                name: document.querySelector("#name-post").value,
-                img: productImageLink ? productImageLink.url : productImage.src,
+                title: document.querySelector("#title-post").value,
+                img: document.querySelector("#img-post").value,
                 desc: document.querySelector("#desc-post").value,
-                price: document.querySelector("#price-post").value,
             });
         });
     },
 };
-export default editProduct;
+export default detailHome;

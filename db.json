@@ -257,11 +257,11 @@
   ],
   "products": [
     {
-      "name": "zqqqqqqqqqqqqqqqqqqqq",
-      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644327289/web16309-thao/odnjh2baruxxpqbqqmtn.jpg",
+      "id": "1",
+      "name": "aaaaaaaaaaaaaaaa",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645109348/web16309-thao/tfsvxaoruhkblvfgodx0.jpg",
       "desc": "abcdeft",
-      "price": "200000",
-      "id": "1"
+      "price": "1200000"
     },
     {
       "name": "fdfhjkuk",
@@ -287,8 +287,8 @@
   ],
   "categorys": [
     {
-      "title": "Sữa rửa mặt",
-      "id": "1"
+      "id": "1",
+      "title": "Sữa rửa mặt"
     },
     {
       "title": "Nước tẩy trang",
