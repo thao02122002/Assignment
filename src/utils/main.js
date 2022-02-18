@@ -15,6 +15,7 @@ import Categori from "../components/categori";
 import ProductHome from "../pages/admin/product";
 // eslint-disable-next-line import/no-named-as-default
 import CartPage from "../pages/cart";
+import profile from "../pages/profile";
 import editProduct from "../pages/admin/product/edit";
 import addProduct from "../pages/admin/product/add";
 import CategoryHome from "../pages/admin/category";
@@ -83,6 +84,12 @@ router.on({
     },
     "/cart": () => {
         print(CartPage);
+    },
+    "/profile": () => {
+        print(profile);
+    },
+    "/profile/:id/edit": ({ data }) => {
+        print(editProduct, data.id);
     },
     "/admin/product": () => {
         print(ProductHome);

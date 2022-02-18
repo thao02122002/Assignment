@@ -59,7 +59,7 @@ const editProduct = {
                                     class="border border-black"  
                                     placeholder="Image" 
                                     
-                                    > ${data.img}
+                                    >  <div><img width="200" src="${data.img}" id="img-preview"/></div>
                             
                           <button type="button" class="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                             Change
@@ -86,18 +86,25 @@ const editProduct = {
     afterRender(id) {
         const formEdit = document.querySelector("#form-edit");
         const productImage = document.querySelector("#img-post");
-        const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/dfpphware/image/upload";
+        const imgPreview = document.querySelector("#img-preview");
+        const CLOUDINARY_API_URL = "https://api.cloudinary.com/v1_1/dfpphware/image/upload";
         const CLOUDINARY_PRESET = "web16309-thao";
         let productImageLink = "";
+        // handle sự kiện change xem ảnh trên local
+        productImage.addEventListener("change", (e) => {
+            imgPreview.src = URL.createObjectURL(e.target.file[0]);
+        });
         formEdit.addEventListener("submit", async (e) => {
             e.preventDefault();
             // lấy giá trị input file
-            const file = document.querySelector("#img-post").files[0];
+            const file = productImage.files[0];
             if (file) {
                 const formData = new FormData();
                 formData.append("file", file);
                 formData.append("upload_preset", CLOUDINARY_PRESET);
-                const { data } = await axios.post(CLOUDINARY_API, formData, {
+                // call api cho cloundinary
+                // eslint-disable-next-line no-undef
+                const { data } = await axios.post(CLOUDINARY_API_URL, formData, {
                     headers: {
                         "Content-Type": "application/form-data",
                     },
