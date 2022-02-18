@@ -21,6 +21,7 @@ import addProduct from "../pages/admin/product/add";
 import CategoryHome from "../pages/admin/category";
 import editCategory from "../pages/admin/category/edit";
 import addCategory from "../pages/admin/category/add";
+import AccountHome from "../pages/admin/account";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 const print = async (content, id) => {
@@ -88,9 +89,9 @@ router.on({
     "/profile": () => {
         print(profile);
     },
-    "/profile/:id/edit": ({ data }) => {
-        print(editProduct, data.id);
-    },
+    // "/profile/:id/edit": ({ data }) => {
+    //     print(editProduct, data.id);
+    // },
     "/admin/product": () => {
         print(ProductHome);
     },
@@ -108,6 +109,9 @@ router.on({
     },
     "/admin/category/add": () => {
         print(addCategory);
+    },
+    "/admin/account": () => {
+        print(AccountHome);
     },
 });
 router.resolve();
