@@ -39,17 +39,20 @@ const ProductHome = {
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     PRICE
                     </th>
+                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Category
+                    </th>
                     <th scope="col" class="relative px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ACTION
                       
                     </th>
                   </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
-                ${data.map((post, index) => /* html */`
+                ${data.map((post) => /* html */`
                
                 <tr>
                     <td class="px-6 py-4 whitespace-nowrap">
-                      ${index + 1}
+                      ${post.id}
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
                       <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
@@ -67,6 +70,9 @@ const ProductHome = {
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                       ${post.price}
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                      ${post.categoryId}
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                       <a href="/admin/product/${post.id}/edit" class="text-indigo-600 hover:text-indigo-900"><button class="">Edit</button></a>/<a href="#" class="text-indigo-600 hover:text-indigo-900"><button data-id=${post.id} class="btn btn-remove">Dell</button></a>

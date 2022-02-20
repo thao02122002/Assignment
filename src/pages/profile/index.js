@@ -29,13 +29,13 @@ const profile = {
         <h1 class="bg-blue-600 py-4 px-2 text-white text-xl">Thông Tin Tài Khoản</h1>
 
 <div class="py-4 px-2">
-<div class="border border-gray-300 rounded-lg bg-gray-300 py-4 px-2"><h1 class="text-xl"><strong>Tên tài khoản</strong></h1>
+<div class="border border-gray-300 rounded-lg bg-gray-200 py-4 px-2"><h1 class="text-xl"><strong>Tên tài khoản</strong></h1>
         ${localStorage.getItem("user") ? "<p id=\"name\"></p>" : ""}
         
         </div></div>
         
 <div class="py-4 px-2">
-<div class="border border-gray-300 rounded-lg bg-gray-300 py-4 px-2">
+<div class="border border-gray-300 rounded-lg bg-gray-200 py-4 px-2">
         <h1 class="text-xl"><strong>Email tài khoản</strong></h1>
          ${localStorage.getItem("user") ? "<p id=\"email\"></p>" : ""}
         

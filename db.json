@@ -1,144 +1,10 @@
 {
   "posts": [
     {
-      "createdAt": "2022-01-14T12:38:27.738Z",
-      "title": "bài viết này được đổi",
-      "img": "http://placeimg.com/640/480/nature",
-      "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "id": "10"
-    },
-    {
-      "createdAt": "2022-01-14T17:58:26.446Z",
-      "title": "Vickie Jast",
-      "img": "http://placeimg.com/640/480/technics",
-      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "id": "11"
-    },
-    {
-      "createdAt": "2022-01-15T02:21:11.908Z",
-      "title": "Mrs. Drew Farrell",
-      "img": "http://placeimg.com/640/480/fashion",
-      "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "id": "13"
-    },
-    {
-      "createdAt": "2022-01-14T11:14:02.843Z",
-      "title": "Lorena Cole",
-      "img": "http://placeimg.com/640/480/technics",
-      "desc": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "id": "14"
-    },
-    {
-      "createdAt": "2022-01-15T00:11:58.958Z",
-      "title": "Vừa sửa",
-      "img": "http://placeimg.com/640/480/technics",
-      "desc": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "id": "15"
-    },
-    {
-      "createdAt": "2022-01-15T04:39:49.775Z",
-      "title": "anh dep trai so 2 khong ai so 1",
-      "img": "http://placeimg.com/640/480/people",
-      "desc": "day la mo ta",
-      "id": "16"
-    },
-    {
-      "createdAt": "2022-01-10T20:33:27.477Z",
-      "title": "Yolanda Roob",
-      "img": "http://placeimg.com/640/480/sports",
-      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "id": "19"
-    },
-    {
-      "0": {
-        "createdAt": "2022-01-10T20:33:27.477Z",
-        "title": "Bài viết mới",
-        "img": "http://placeimg.com/640/480/sports",
-        "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-        "id": "2"
-      },
-      "createdAt": "2022-01-18T23:32:25.238Z",
-      "title": "Bennie Moore",
-      "img": "http://placeimg.com/640/480/sports",
-      "desc": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "id": "21"
-    },
-    {
-      "createdAt": "2022-01-18T09:17:36.448Z",
-      "title": "David Beahan",
-      "img": "http://placeimg.com/640/480/cats",
-      "desc": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "id": "22"
-    },
-    {
-      "createdAt": "2022-01-18T19:58:18.894Z",
-      "title": "Erin Herman",
-      "img": "http://placeimg.com/640/480/fashion",
-      "desc": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "id": "23"
-    },
-    {
-      "createdAt": "2022-01-18T19:25:18.728Z",
-      "title": "Genevieve Upton II",
-      "img": "http://placeimg.com/640/480/cats",
-      "desc": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "id": "25"
-    },
-    {
-      "0": {
-        "createdAt": "2022-01-10T20:33:27.477Z",
-        "title": "Bài viết mới frreewrertr",
-        "img": "http://placeimg.com/640/480/sports",
-        "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-        "id": "2"
-      },
-      "createdAt": "2022-01-18T12:48:44.521Z",
-      "title": "Martha Bauch",
-      "img": "http://placeimg.com/640/480/people",
-      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "id": "27"
-    },
-    {
-      "createdAt": "2022-01-19T01:45:11.910Z",
-      "title": "Trần Văn Kiên",
-      "img": "https://picsum.photos/1500/400",
-      "desc": "Chú thích người dùng",
-      "id": "29"
-    },
-    {
-      "createdAt": "2022-01-18T08:16:02.361Z",
-      "title": "Thêm mới bài viết",
-      "img": "http://placeimg.com/640/480/business",
-      "desc": "Bài viêt mới đăng",
-      "id": "31"
-    },
-    {
-      "createdAt": "2022-01-18T22:06:44.377Z",
-      "title": "Long chanh thôn đã chỉnh sửa",
-      "img": "http://placeimg.com/640/480/fashion",
-      "desc": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "id": "32"
-    },
-    {
-      "createdAt": "2022-01-19T02:20:42.280Z",
-      "title": "Lê Văn Tuân Update",
-      "img": "http://placeimg.com/640/480/transport",
-      "desc": "Mô tả bài viết",
-      "id": "35"
-    },
-    {
-      "createdAt": "2022-01-10T07:26:52.549Z",
-      "title": "Annie Stroman",
-      "img": "http://placeimg.com/640/480/fashion",
-      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "id": "36"
-    },
-    {
-      "createdAt": "2022-01-10T07:26:52.549Z",
-      "title": "Annie Stroman",
-      "img": "http://placeimg.com/640/480/fashion",
-      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "id": "37"
+      "id": "37",
+      "title": "aaaaaaaaaaaaaaaaaaa",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645374009/web16309-thao/ngktecanzbsv6ocs62yp.jpg",
+      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals"
     },
     {
       "createdAt": "2022-01-18T16:21:32.595Z",
@@ -258,57 +124,140 @@
   "products": [
     {
       "id": "1",
-      "name": "aaaaaaaaaaaaaaaa",
-      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645154008/web16309-thao/uoqaj3khxqmka6bovsvw.jpg",
-      "desc": "dskmgldgm",
-      "price": "1200000"
+      "name": "Sữa rửa mặt INNISFREE",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645325673/web16309-thao/s8nz24z484xafktnkbs7.jpg",
+      "desc": "Sane phẩm chất lượng cao, giá thành hợp lí. Là lựa chọn hàng đầu cho học sinh sinh viên và chị em tiêu dùng",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "160 000",
+      "cate": "Sữa rửa mặt",
+      "categoryId": 1
     },
     {
-      "name": "fdfhjkuk",
-      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644368874/web16309-thao/gjfhbn0fnvvep9h53oxp.png",
-      "desc": "dfjghloifgdf",
-      "price": "4000000",
-      "id": "2"
+      "id": "2",
+      "name": "Sữa rửa mặt NARUKO",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645325817/web16309-thao/scpozluyfpcyq3iqf4qb.jpg",
+      "desc": "Chiết xuất từ thiên nhiên, phù hợp với mọi làn da. Không dây kích ứng, cấp ẩm đến 99,9% sau khi sử dụng sản phẩm",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "140 000",
+      "cate": "Sữa rửa mặt",
+      "categoryId": 1
     },
     {
-      "name": "dhdjtjy",
-      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644315266/web16309-thao/bgpetmqroy75zudtw74n.jpg",
-      "desc": "dgtdjt",
-      "price": "120000",
-      "id": "3"
+      "id": "3",
+      "name": "Sữa rửa mặt NOWPH",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645327497/web16309-thao/jsksvvygwjqpuvgcn9e4.jpg",
+      "desc": "Sản phẩm dành riêng cho da mụn, mụn ẩn, mụn bọc, mụn đầu đen, da dầu. Có tác dụng hỗ trợ làm giảm tình trạng sưng tấy đỏ, viêm. Giups làn da của mạn sáng mịn hơn",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "200 000",
+      "cate": "Sữa rửa mặt",
+      "categoryId": 1
     },
     {
-      "name": "abc",
-      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1644995113/web16309-thao/wegpllvhyjvx8fenjss4.jpg",
-      "desc": "zzzz",
-      "price": "2002000",
-      "id": "4"
+      "id": "4",
+      "name": "Set cấp ẩm và mặt nạ",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645327636/web16309-thao/aoko9h00lmj721nt42hp.jpg",
+      "desc": "Dưỡng ẩm ban đêm, thu nhỏ lỗ chân lông. Được triết xuất đến 80% từ cà chua nguyên chất. Cung cấp vitamin C cho làn da. Giúp da đạt được độ đàn hồi cao nhất",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "540 000",
+      "cate": "Set mĩ phẩm",
+      "categoryId": 6
+    },
+    {
+      "id": 5,
+      "name": "Nước tẩy trang ALL CLEAR WATER",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645367277/web16309-thao/o9d4zpvtqo5eoy2p6sdt.jpg",
+      "desc": "Thành Phần Kem Dưỡng Căng Bóng da Medi – Peel Bor Tox Peptide Cream",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "149 000",
+      "categoryId": 2
+    },
+    {
+      "name": "Nước tẩy trang BIODERMA",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645367674/web16309-thao/ojfuppw7ibqro1sserkb.jpg",
+      "desc": "Thành Phần Kem Dưỡng Căng Bóng da Medi – Peel Bor Tox Peptide Cream",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "129 000",
+      "categoryId": 2,
+      "id": 6
+    },
+    {
+      "name": "Nước tẩy trang NIVEA",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645368310/web16309-thao/kpfthukrh3iebeihw5os.jpg",
+      "desc": "Thành Phần Kem Dưỡng Căng Bóng da Medi – Peel Bor Tox Peptide Cream",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "119 000",
+      "categoryId": 2,
+      "id": 7
+    },
+    {
+      "name": "Nước tẩy trang SYPHASSE",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645368886/web16309-thao/pnmpdkpd4bsztqxlynvl.jpg",
+      "desc": "Thành Phần nước tẩy trang Medi – Peel Bor Tox Peptide Cream",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "139 000",
+      "categoryId": 2,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Serum cấp ẩm Favorite",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645369267/web16309-thao/ijiggqpu6jj2yzk9z3xo.jpg",
+      "desc": "Thành Phần Serum cấp ẩm Favorite Medi – Peel Bor Tox Peptide Cream\n\n",
+      "descdetail": "Collagen thủy phân: Giúp phục hồi độ đàn hồi của làn da. Giúp dưỡng ẩm, thúc đẩy độ đàn hồi, hỗ trợ quá trình trao đổi chất và dinh dưỡng trong da.\nTế bào gốc Edelweiss: Có khả năng dưỡng ẩm và nuôi dưỡng da mạnh mẽ. Hoạt chất Cung cấp điều trị và chăm sóc cho làn da trưởng thành và Ngăn chặn sự phá hủy các sợi elastin.\nCùng một số thành phần khác: hoạt tính adenosine, collagen, phức hợp peptide..",
+      "price": "499 000",
+      "categoryId": 4
+    },
+    {
+      "name": "Serum cấp ẩm RUNAK",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645370819/web16309-thao/bzprgougwjmb4xpmytxv.jpg",
+      "desc": "Thành Phần Serum cấp ẩm RUNAK Medi – Peel Bor Tox Peptide Cream",
+      "price": "650 000",
+      "categoryId": 4,
+      "id": 10
+    },
+    {
+      "name": "Serum cấp ẩm  VICHY V MINERAL 89",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645371339/web16309-thao/faqaa50qdrbp3or1yb2b.jpg",
+      "desc": "Thành Phần Serum cấp ẩm VICHY V MINERAL 89 Medi – Peel Bor Tox Peptide Cream",
+      "descdetail": "Phức hợp peptide: Giúp dưỡng ẩm cho da và làm da mịn màng hơn. Là một phần của Medi – Peel Bor Tox Peptide Cream nó có khả năng loại bỏ tình trạng nhão da, mang lại độ săn chắc và đàn hồi cho da.\nCeramides: là thành phần được cấu tạo của tế bào biểu bì. Giúp tăng khả năng chống lại các kích thích bên ngoài như: ánh mặt trời, tia UV…\nAxit hyaluronic: có khả năng dưỡng ẩm mạnh mẽ, làm mờ các nếp nhăn giúp loại bỏ tình trạng mất nước, bọng mắt và làm se khít lỗ chân lông.\nGiúp cấp ẩm và phục hồi tổn thương sâu bên trong da do tia UV gây nên.\n\n– Sản phẩm có khả năng làm dịu các nốt mụn sưng đỏ, đem lại một làn da bóng mượt, khỏe khoắn. Làm mờ vết thâm mụn chỉ trong vòng 2 tuần\n\n– Phục hồi da, nâng cơ giúp da săn chắc, đàn hồi da, làm mờ vết chân chim, đồi mồi, làm da trắng sáng đều màu hơn và loại bỏ bọng mắt.\n\n",
+      "price": "259 000",
+      "categoryId": 4,
+      "id": 11
+    },
+    {
+      "id": 12,
+      "name": "Set mỹ phẩ KOREA",
+      "img": "http://res.cloudinary.com/dfpphware/image/upload/v1645374100/web16309-thao/jw42p7nitg32nudk4zqo.jpg",
+      "desc": "Set mỹ phẩm KOREA Cover Cushion Moist_Janepacker Set 120G",
+      "descdetail": "- Chống nhăn, làm mờ các vết chân chim\n\n– Chống mắt nước\n\n– Cân bằng dưỡng ẩm\n\n– Khả năng chống oxi hóa,\n\n– Giúp cấp ẩm và phục hồi tổn thương sâu bên trong da do tia UV gây nên.\n\n– Sản phẩm có khả năng làm dịu các nốt mụn sưng đỏ, đem lại một làn da bóng mượt, khỏe khoắn. Làm mờ vết thâm mụn chỉ trong vòng 2 tuần\n\n– Phục hồi da, nâng cơ giúp da săn chắc, đàn hồi da, làm mờ vết chân chim, đồi mồi, làm da trắng sáng đều màu hơn và loại bỏ bọng mắt.",
+      "price": "1 299 000",
+      "categoryId": 6
     }
   ],
   "categorys": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Sữa rửa mặt"
     },
     {
       "title": "Nước tẩy trang",
-      "id": "2"
+      "id": 2
     },
     {
       "title": "Serum trị mụn",
-      "id": "3"
+      "id": 3
     },
     {
       "title": "Serum cấp ẩm",
-      "id": "4"
+      "id": 4
     },
     {
       "title": "Gel mặt nạ",
-      "id": "5"
+      "id": 5
     },
     {
       "title": "Set mĩ phẩm",
-      "id": "6"
+      "id": 6
     }
   ]
 }

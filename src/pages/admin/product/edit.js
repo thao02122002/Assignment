@@ -1,3 +1,4 @@
+/* eslint-disable radix */
 import axios from "axios";
 import { get, update } from "../../../api/product";
 import navAdmin from "../../../components/navAdmin";
@@ -38,6 +39,16 @@ const editProduct = {
                         
                       </div>
           
+ <div>
+                        <label for="about" class="block text-sm font-medium text-gray-700">
+                        DESCRIPTION-DETAIL
+                        </label>
+                        <div class="mt-1">
+                          <textarea id="desc-detail-post" name="about" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="">${data.descdetail}</textarea>
+                        </div>
+                        
+                      </div>
+
                       <div>
                       <div>
                         <label for="about" class="block text-sm font-medium text-gray-700">
@@ -45,6 +56,17 @@ const editProduct = {
                         </label>
                         <div class="mt-1">
                           <textarea id="price-post" name="about" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="">${data.price}</textarea>
+                        </div>
+                        
+                      </div>
+
+                      <div>
+                      <div>
+                        <label for="about" class="block text-sm font-medium text-gray-700">
+                       Category
+                        </label>
+                        <div class="mt-1">
+                          <textarea id="cate-post" name="about" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="">${data.categoryId}</textarea>
                         </div>
                         
                       </div>
@@ -92,7 +114,7 @@ const editProduct = {
         let productImageLink = "";
         // handle sự kiện change xem ảnh trên local
         productImage.addEventListener("change", (e) => {
-            imgPreview.src = URL.createObjectURL(e.target.file[0]);
+            imgPreview.src = URL.createObjectURL(e.target.files[0]);
         });
         formEdit.addEventListener("submit", async (e) => {
             e.preventDefault();
@@ -116,7 +138,9 @@ const editProduct = {
                 name: document.querySelector("#name-post").value,
                 img: productImageLink ? productImageLink.url : productImage.src,
                 desc: document.querySelector("#desc-post").value,
+                descdetail: document.querySelector("#desc-detail-post").value,
                 price: document.querySelector("#price-post").value,
+                categoryId: parseInt(document.querySelector("#cate-post").value),
             });
         });
     },

@@ -24,8 +24,9 @@ const Header = {
       </ul>
         </nav>
         <div class="search col-span-3 py-2 pl-8">
-          <input class="border border-black bg-white p-1" type="text">
-          <button class="border border-black bg-blue-900 text-white  p-1" type="submit">Tìm kiếm</button>
+        <form><input name="keyword" class="border border-black bg-white p-1" type="text">
+          <button class="border border-black bg-blue-900 text-white  p-1" type="submit">Tìm kiếm</button></form>
+          
         </div>
         <div class="col-span-2 my-auto">
         ${localStorage.getItem("user") ? "" : `<a href="/signin"><input type="submit" class="border border-black bg-white p-1 hover:bg-blue-900 hover:text-white" value="Sing In" id="singin"></a>

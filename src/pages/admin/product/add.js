@@ -38,6 +38,28 @@ const addProduct = {
                     </div>
                     
                   </div>
+
+ <div>
+                    <label for="about" class="block text-sm font-medium text-gray-700">
+                    DESCRIPTION-DETAIL
+                    </label>
+                    <div class="mt-1">
+                      <textarea id="desc-detail-post" name="about" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder=""></textarea>
+                    </div>
+                    
+                  </div>
+
+
+<div>
+                    <label type="number" for="about" class="block text-sm font-medium text-gray-700">
+                    Category
+                    </label>
+                    <div class="mt-1">
+                      <textarea id="cate-post" name="about" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder=""></textarea>
+                    </div>
+                    
+                  </div>
+
       <div>
                     <label for="about" class="block text-sm font-medium text-gray-700">
                     PRICE
@@ -97,7 +119,10 @@ const addProduct = {
                 name: document.querySelector("#name-post").value,
                 img: data.url,
                 desc: document.querySelector("#desc-post").value,
+                descdetail: document.querySelector("#desc-detail-post").value,
                 price: document.querySelector("#price-post").value,
+                // eslint-disable-next-line radix
+                categoryId: parseInt(document.querySelector("#cate-post").value),
             }).then(
                 () => {
                     window.location.href = "/admin/product";

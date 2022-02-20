@@ -13,8 +13,8 @@ const HomePage = {
         <div class="danhmuc py-4 text-center">
         ${await Categori.render()}
         </div>
-        <div class=""> <h1 class="pb-8"><strong>HOME</strong></h1>
-        <div class="home1 grid grid-cols-12 gap-3">
+        <div class=""> <h1 class="pb-8"><strong>NEWS</strong></h1>
+        <div class="home1">
           ${await News.render()}
           
         </div></div>

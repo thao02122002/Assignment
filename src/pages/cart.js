@@ -47,9 +47,9 @@ const CartPage = {
                      ${item.name}
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                        ${item.img}
-                      </span>
+                      <img src="${item.img}" class="px-2 inline-flex text-xs leading-5 font-semibold  bg-green-100 text-green-800" width="120px">
+                        
+                      
                       </td>
                     <td class="px-6 py-4 whitespace-nowrap">
                       <div class="text-sm text-gray-900">${item.price}</div>
