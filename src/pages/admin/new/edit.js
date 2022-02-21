@@ -1,6 +1,8 @@
 import axios from "axios";
 import { get, update } from "../../../api/posts";
 import navAdmin from "../../../components/navAdmin";
+import { reRender } from "../../../utils";
+import AdminHome from ".";
 
 const detailHome = {
     async  render(id) {
@@ -105,7 +107,12 @@ const detailHome = {
                 // eslint-disable-next-line no-undef
                 img: newImageLink ? newImageLink.url : newImage.src,
                 desc: document.querySelector("#desc-post").value,
-            });
+            }).then(
+                () => {
+                    window.location.href = "/admin/dashboard";
+                    reRender(AdminHome, "#app");
+                },
+            );
         });
     },
 };

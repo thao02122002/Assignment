@@ -16,7 +16,7 @@ const Header = {
       <ul >
         <li class="inline-block pr-2  hover:text-blue-800"><a href="/">Trang chủ</a></li>
         <li class="inline-block pr-2  hover:text-blue-800"><a href="/products">Sản phẩm</a></li>
-        <li class="inline-block pr-2  hover:text-blue-800"><a href="/admin/dashboard">Admin</a></li>
+       
       ${localStorage.getItem("user") ? " <li class=\"inline-block pr-2  hover:text-blue-800\"><a href=\"/profile\">Profile</a></li>" : ""}
         
         ${localStorage.getItem("user") ? "<li class=\"inline-block pr-2  hover:text-blue-800\"><a id=\"account\" href=\"\">User</a></li>" : ""}
